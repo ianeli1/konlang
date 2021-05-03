@@ -1,0 +1,8 @@
+
+//this is ignored
+let a = 1
+print("value of a before")
+print(a)
+a = a + 1
+print("value of a after")
+print(a)
