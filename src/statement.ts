@@ -23,8 +23,7 @@ export function resolveStatement(this: Kon, rawStatement: string): string {
     );
   }
 
-  if (variableName.test(statement))
-    return ifMathFail(this.memory.get(statement));
+  if (variableName.test(statement)) return ""; //ifMathFail(this.memory.get(statement));
 
   return statement;
 }

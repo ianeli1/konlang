@@ -1,6 +1,6 @@
 
 //this is ignored
-let a = 1
+let a = 3
 print("value of a before")
 print(a)
 a = a + 1
